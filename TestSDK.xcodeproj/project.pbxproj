@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		152B0CA42BF1F4240021D803 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152B0CA32BF1F4240021D803 /* Package.swift */; };
 		1568963B2BE123A1003D709A /* WebViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1568963A2BE123A1003D709A /* WebViewProvider.swift */; };
 		15B08D812BDF997100FA144D /* TestSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = 15B08D802BDF997100FA144D /* TestSDK.docc */; };
 		15B08D872BDF997200FA144D /* TestSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B08D7C2BDF997100FA144D /* TestSDK.framework */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		152B0CA32BF1F4240021D803 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		1568963A2BE123A1003D709A /* WebViewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewProvider.swift; sourceTree = "<group>"; };
 		15B08D7C2BDF997100FA144D /* TestSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15B08D7F2BDF997100FA144D /* TestSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSDK.h; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 		15B08D722BDF997000FA144D = {
 			isa = PBXGroup;
 			children = (
+				152B0CA32BF1F4240021D803 /* Package.swift */,
 				15B08D7E2BDF997100FA144D /* TestSDK */,
 				15B08D8A2BDF997200FA144D /* TestSDKTests */,
 				15B08D7D2BDF997100FA144D /* Products */,
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				152B0CA42BF1F4240021D803 /* Package.swift in Sources */,
 				1568963B2BE123A1003D709A /* WebViewProvider.swift in Sources */,
 				15B08D812BDF997100FA144D /* TestSDK.docc in Sources */,
 			);
